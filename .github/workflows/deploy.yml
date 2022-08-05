@@ -23,13 +23,13 @@ jobs:
         env:
           REPO: self
           BRANCH: release
-          FOLDER: addons/FracturalCommons
+          FOLDER: addons/FracturalEntitasECS
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Create Release
         run: |
           mkdir release
-          mv addons/FracturalCommons release
+          mv addons/FracturalCommons addons/FracturalEntitasECS release
           pushd release
           zip -r ../Release.zip *
           popd

@@ -29,7 +29,7 @@ jobs:
       - name: Create Release
         run: |
           mkdir release
-          mv addons/FracturalCommons addons/FracturalEntitasECS release
+          mv addons/FracturalCommons addons/FracturalECS release
           pushd release
           zip -r ../Release.zip *
           popd

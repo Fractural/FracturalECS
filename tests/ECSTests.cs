@@ -2,7 +2,7 @@ using WAT;
 
 namespace Tests
 {
-	public class EntitasTests : WAT.Test
+	public class ECSTests : WAT.Test
 	{
 		[Test]
 		public void Empty()

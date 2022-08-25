@@ -2,3 +2,11 @@
 	path = addons/FracturalCommons
 	url = https://github.com/Fractural/FracturalCommons.git
 	branch = release
+[submodule "addons/FracturalECS/Libraries/Svelto.ECS"]
+	path = addons/FracturalECS/Libraries/Svelto.ECS
+	url = https://github.com/sebas77/Svelto.ECS.git
+	branch = UPM
+[submodule "addons/FracturalECS/Libraries/Svelto.Common"]
+	path = addons/FracturalECS/Libraries/Svelto.Common
+	url = https://github.com/sebas77/Svelto.Common.git
+	branch = UPM
